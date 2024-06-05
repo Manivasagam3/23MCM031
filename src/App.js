@@ -21,12 +21,7 @@ const App = () => {
   return (
     <div >
       <h1>FIBONNACI</h1>
-      <input
-        type="number"
-        value={num}
-        onChange={handleChange}
-        min="0"
-      />
+    <input type="number" value={num} onChange={handleChange} min="0" />
       <ul className='list'>
         {sequence.map((value, index) => (
           <li key={index}>{value}</li>
